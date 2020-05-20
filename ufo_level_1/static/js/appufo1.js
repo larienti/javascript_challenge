@@ -1,11 +1,11 @@
 // import data
 var tableData = data;
 var button = d3.select("#filter-button");
-var selection = de.select("form");
+var selection = d3.select("form");
 
 //runEnter when form submitted65
 button.on("click", formSubmission);
-form.on("submit", formSubmission);
+selection.on("submit", formSubmission);
 
 // select html elements tbody, table
 
